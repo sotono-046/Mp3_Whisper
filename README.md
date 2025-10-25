@@ -1,4 +1,4 @@
-![Whisper GUI](image.png)
+![Whisper GUI](docs/image.png)
 
 ## プロジェクト概要
 
