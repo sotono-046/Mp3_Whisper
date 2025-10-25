@@ -27,6 +27,7 @@ ENV/
 transcripts/
 *.log
 *.tmp
+tmp/
 
 # Whisper.cpp build artifacts
 vendor/whisper.cpp/build/

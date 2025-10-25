@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ result_title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body class="result-container">
+    <h1>{{ result_heading }}</h1>
+    <div class="result-meta">
+      <p>処理したファイル: <strong>{{ original_name }}</strong></p>
+      <p><a href="{{ transcript_url }}" download>テキストファイルをダウンロード</a></p>
+    </div>
+    <pre class="transcript">{{ transcript_text }}</pre>
+    <footer>
+      <a href="{{ url_for('index') }}">別のファイルを処理する</a>
+    </footer>
+  </body>
+</html>
